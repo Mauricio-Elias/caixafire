@@ -16,10 +16,6 @@ const firebaseConfig = {
   measurementId: "G-15CS643Y8R"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 // Função para inicializar o Firebase
 const initFirebase = () => {
     try {
