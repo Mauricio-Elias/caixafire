@@ -1,0 +1,22 @@
+/* Estilos CSS personalizados para o Controle de Caixa Rotativo */
+
+/* Animação de fade in com movimento para cima */
+@keyframes fadeInUp {
+    from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.3s ease-out forwards;
+}
+
+/* Garantir que o body e o html preencham a tela mínima para um bom layout */
+html, body {
+    min-height: 100vh;
+}
